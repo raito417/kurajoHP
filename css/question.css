@@ -1,0 +1,25 @@
+#menu{
+    display: table;
+    position: fixed;
+    top: 0%
+        
+}
+#menu li{
+    display: table-cell;
+    vertical-align: middle;
+    width: 2%;
+    height: 2em;
+    font-size: 1em;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+#menu a{
+    display: block;
+    border: none;
+    text-decoration:none;
+    color:black;
+}
+#menu a:hover{
+    background-color: azure
+}

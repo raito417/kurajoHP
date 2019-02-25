@@ -1,0 +1,79 @@
+div#booktitle {
+    font-size:2em;
+    font-weight:900;
+    color:sandybrown;
+    background-color:brown;
+    text-align:center;
+
+}
+
+#menu{
+    top:0px;
+    position: fixed;
+    display: table;
+        
+}
+#menu li{
+    display: table-cell;
+    vertical-align: middle;
+    width: 200em;
+    height: 2em;
+    font-size: 1em;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+#menu a{
+    display: block;
+    border: none;
+    text-decoration:none;
+    color:black;
+}
+#menu a:hover{
+    background-color: azure
+}
+
+.cent {
+    margin:3% 10%;
+    
+}
+.scro {
+    font-size: 3em;
+    text-align: center;
+    background-color: orange;
+    color: black;
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    color: black
+        
+        
+}
+.conttitle {
+    display: block;
+    background-color: green;
+    font-size: 2em;
+    font-weight: 900;
+    text-align: center;
+}
+
+.s {
+    font-size:1.2em
+}
+/*mokuji*/
+
+div#mokuji {
+    float: left;
+    width: 30%;
+    border: double;
+    background-color: sandybrown;
+    margin: 0% 0% 5% 0%
+}
+
+/*tyuui*/
+div#tyuui {
+    float:left;
+    width:40%;
+    border:double;
+    margin:1% 5%;
+}
