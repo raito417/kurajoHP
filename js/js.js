@@ -24,7 +24,7 @@ function omikuji() {
     };
     var pao = confirm(result);
     if (pao == true) {
-        window.open("web+mastodon://share?text=クラ女おみくじの結果は+「" + arr[k] + "」でした。+http://cloudjoshi.webcrow.jp/")
+        window.open("web+mastodon://share?text=クラ女おみくじの結果は+「" + arr[k] + "」でした。+https://raito417.github.io/kurajoHP/")
     } else {
         alert("共有してくれないの...？");
     };
