@@ -1,14 +1,17 @@
 body {
-    background-image:url(cloud.png);
+    background-image: url(../picture/cloud.png);
     cursor: url(../pao.cur), text;
-    }
+}
+
 div.content {
     text-align: center;
     margin: 3% 15% 0%;
     background-color: rgba(159, 217, 246, 0.9);
 }
 
+
 /*class*/
+
 .midasi {
     font-size: 1.2em;
     margin: 1%;
@@ -19,6 +22,7 @@ div.content {
 /*=============================================
 welcome
 ==============================================*/
+
 div#welcomelink {
     position: absolute;
     text-align: center;
@@ -27,16 +31,19 @@ div#welcomelink {
     background-color: rgba(255, 255, 255, 0.658);
     border: solid;
 }
+
 div#welcomet {
     font-size: 7em;
     font-weight: 900;
-    color:aqua;
+    color: aqua;
     animation: blink 2.0s step-end infinite alternate;
     text-align: center
 }
+
 div#welcome_img {
     text-align: center
 }
+
 
 /*=============================================
 title
@@ -45,14 +52,16 @@ title
 div#title {
     font-size: 5em;
     font-weight: 900;
-    color:aqua;
+    color: aqua;
     text-align: center;
     animation: blink 1.0s linear infinite normal;
-
 }
+
+
 /*=============================================
 side
 ==============================================*/
+
 #side_l {
     position: fixed;
     left: 2%;
@@ -65,47 +74,59 @@ side
     animation: slide 3.0s linear infinite alternate;
 }
 
+
 /*=============================================
 menu
 ==============================================*/
+
 div#menu {
     display: block;
-    margin:1%
+    margin: 1%
 }
+
 div#menu a {
     text-decoration: none;
     color: black;
     font-size: 1.5em;
     background-color: pink;
 }
+
 div#menu a:hover {
     background-color: aquamarine
 }
+
+
 /*=============================================
 news
 ==============================================*/
+
 div.news {
     border: double;
-    background-color:sandybrown;
+    background-color: sandybrown;
     margin: 1% 15%;
 }
+
 div.news p {
     font-size: 1.5em;
-    font-weight:900;
+    font-weight: 900;
     margin: 0%
 }
+
+
 /*=============================================
 button
 ==============================================*/
+
 .btn {
-    width:80%;
-    line-height:2em;
-    margin:1% 10%;
-    border:groove;
-    text-align:center;
-    background-color:lightpink;
+    width: 80%;
+    line-height: 2em;
+    margin: 1% 10%;
+    border: groove;
+    text-align: center;
+    background-color: lightpink;
 }
-.btn:active{
+
+.btn:active {
     width: 80%;
     line-height: 2em;
     margin: 1.5% 9% 0.5% 11%;
@@ -114,31 +135,40 @@ button
     background-color: lightpink;
 }
 
+
 /*=============================================
 guide
 ==============================================*/
+
 div#gaiyou {
     border: solid;
     margin: 1% 15%
 }
+
 div#gaiyou p {
     font-size: 1em;
-    font-weight:900;
+    font-weight: 900;
     margin: 0%
 }
+
+
 /*=============================================
 link
 ==============================================*/
+
 div#link {
-    margin:2% 15%;
+    margin: 2% 15%;
     border: dotted
 }
+
 div#link a {
     font-size: 1.1em
 }
+
 div#link dd {
     margin-bottom: 2%
 }
+
 div#link li {
     list-style: none;
 }
@@ -146,22 +176,47 @@ div#link li {
 div#koukoku {
     font-weight: 900;
 }
+
+
 /*=============================================
 animation
 ==============================================*/
+
 @keyframes blink {
-    0%{background: -webkit-gradient(linear, left center, right center, from(red), color-stop(0.2, orange), color-stop(0.3, yellow), color-stop(0.5, green), color-stop(0.7, blue), color-stop(0.8, indigo), to(violet));}
-    14%{background: -webkit-gradient(linear, left center, right center, from(violet), color-stop(0.2, red), color-stop(0.3, orange), color-stop(0.5, yellow), color-stop(0.7, green), color-stop(0.8, blue), to(indigo)); }
-    28%{background: -webkit-gradient(linear, left center, right center, from(indigo), color-stop(0.2, violet), color-stop(0.3,red), color-stop(0.5, orange), color-stop(0.7, yellow), color-stop(0.8, green), to(blue));}
-    43%{background: -webkit-gradient(linear, left center, right center, from(blue), color-stop(0.2, indigo), color-stop(0.3, violet), color-stop(0.5, red), color-stop(0.7, orange), color-stop(0.8, yellow), to(green));}
-    57%{background: -webkit-gradient(linear, left center, right center, from(green), color-stop(0.2, blue), color-stop(0.3, indigo), color-stop(0.5, violet), color-stop(0.7, red), color-stop(0.8, orange), to(yellow));}
-    71%{background: -webkit-gradient(linear, left center, right center, from(yellow), color-stop(0.2, green), color-stop(0.3, blue), color-stop(0.5, indigo), color-stop(0.7, violet), color-stop(0.8, red), to(orange));}
-    85%{background: -webkit-gradient(linear, left center, right center, from(orange), color-stop(0.2, yellow), color-stop(0.3, green), color-stop(0.5, blue), color-stop(0.7, indigo), color-stop(0.8, violet), to(red));}
-    100%{background: -webkit-gradient(linear, left center, right center, from(violet), color-stop(0.2, red), color-stop(0.3, orange), color-stop(0.5, yellow), color-stop(0.7, green), color-stop(0.8, blue), to(indigo));}
+    0% {
+        background: -webkit-gradient(linear, left center, right center, from(red), color-stop(0.2, orange), color-stop(0.3, yellow), color-stop(0.5, green), color-stop(0.7, blue), color-stop(0.8, indigo), to(violet));
+    }
+    14% {
+        background: -webkit-gradient(linear, left center, right center, from(violet), color-stop(0.2, red), color-stop(0.3, orange), color-stop(0.5, yellow), color-stop(0.7, green), color-stop(0.8, blue), to(indigo));
+    }
+    28% {
+        background: -webkit-gradient(linear, left center, right center, from(indigo), color-stop(0.2, violet), color-stop(0.3, red), color-stop(0.5, orange), color-stop(0.7, yellow), color-stop(0.8, green), to(blue));
+    }
+    43% {
+        background: -webkit-gradient(linear, left center, right center, from(blue), color-stop(0.2, indigo), color-stop(0.3, violet), color-stop(0.5, red), color-stop(0.7, orange), color-stop(0.8, yellow), to(green));
+    }
+    57% {
+        background: -webkit-gradient(linear, left center, right center, from(green), color-stop(0.2, blue), color-stop(0.3, indigo), color-stop(0.5, violet), color-stop(0.7, red), color-stop(0.8, orange), to(yellow));
+    }
+    71% {
+        background: -webkit-gradient(linear, left center, right center, from(yellow), color-stop(0.2, green), color-stop(0.3, blue), color-stop(0.5, indigo), color-stop(0.7, violet), color-stop(0.8, red), to(orange));
+    }
+    85% {
+        background: -webkit-gradient(linear, left center, right center, from(orange), color-stop(0.2, yellow), color-stop(0.3, green), color-stop(0.5, blue), color-stop(0.7, indigo), color-stop(0.8, violet), to(red));
+    }
+    100% {
+        background: -webkit-gradient(linear, left center, right center, from(violet), color-stop(0.2, red), color-stop(0.3, orange), color-stop(0.5, yellow), color-stop(0.7, green), color-stop(0.8, blue), to(indigo));
+    }
 }
 
 @keyframes slide {
-    0%{top: 0px;}
-    50%{top: 80%;}
-    100%{top: 0px;}
+    0% {
+        top: 0px;
+    }
+    50% {
+        top: 80%;
+    }
+    100% {
+        top: 0px;
+    }
 }
